@@ -1,0 +1,124 @@
+#değişkenler
+
+haber = "Haberiniz olsun"  #string
+
+print(haber)
+baslik = "Haberiniz olsun"
+vade = 6  #integer
+faizOrani1 = 1.47  #float
+faizOrani2 = 1.45
+print(baslik)
+print(type(baslik))
+print(type(vade))
+print(type(faizOrani1))
+
+mesaj = "Hoşgeldin"
+musteriAdi = "zühal"
+musteriSoyadi = "yıldırım"
+#sayi1=10
+#sayi2=20
+#print(sayi1+sayi2)
+
+sonucMesaj = mesaj + " " + musteriAdi + " " + musteriSoyadi + "!"
+print(sonucMesaj)
+
+
+
+
+#LİSTELER
+
+krediler=["hızlı kredi","maaşını halkbank'tan alanlar","mutlu emekli ihtiyaç kredisi"]
+print(krediler)
+print(krediler[0])
+print(krediler[1])
+print(krediler[2])
+
+
+print(len(krediler)) #length
+krediler[0]="çabuk kredi"
+print(krediler)
+#print(krediler[5])
+
+
+
+
+#ŞARTBLOKLARI
+
+dolarDun=19.03
+dolarBugun=19.03
+if dolarDun>dolarBugun:
+  print("azalış oku")
+  print("bitti")
+elif dolarDun<dolarBugun:
+  print("artış oku")
+  
+else:
+  print("eşittir oku")
+  print("bitti")
+  
+  
+#if dolarDun<dolarBugun:
+  #print("artış oku")
+#if dolarDun==dolarBugun:
+  
+  #print("eşittir oku")
+  
+
+
+
+#DÖNGÜLER
+
+
+dolarDun=19.03
+dolarBugun=19.03
+if dolarDun>dolarBugun:
+  print("azalış oku")
+  print("bitti")
+elif dolarDun<dolarBugun:
+  print("artış oku")
+  
+else:
+  print("eşittir oku")
+  print("bitti")
+  
+  
+#if dolarDun<dolarBugun:
+  #print("artış oku")
+#if dolarDun==dolarBugun:
+  
+  #print("eşittir oku")
+  
+
+
+
+#FONKSİYONLAR
+
+#print("İlk Sayfa")
+
+#krediler=["hızlı kredi","maaşını halkbank'tan alanlar","mutlu emekli ihtiyaç kredisi"]
+#for kredi in krediler:
+  #print("<option>"+kredi+"<option>")
+
+#print("İkinci Sayfa")
+
+#krediler=["hızlı kredi","maaşını halkbank'tan alanlar","mutlu emekli ihtiyaç kredisi"]
+#for kredi in krediler:
+  #print("<option>"+kredi+"<option>")
+
+
+#print("Üçüncü Sayfa")
+
+#krediler=["hızlı kredi","maaşını halkbank'tan alanlar","mutlu emekli ihtiyaç kredisi"]
+#for kredi in krediler:
+  #print("<option>"+kredi+"<option>")
+
+
+#fonksiyon oluşturmak için def kullanırız;
+def kredilerilistele():
+
+
+  krediler=["hızlı kredi","maaşını halkbank'tan alanlar","mutlu emekli ihtiyaç kredisi"]
+  for kredi in krediler:
+    print("<option>"+kredi+"<option>")
+
+kredilerilistele()
